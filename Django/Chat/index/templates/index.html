@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DChat-聊天_{{ user.my_name }}</title>
+    <style>
+        .top{
+            height: 50px;
+            width: 100%;
+            background: lightgray;
+            position: fixed;
+            top: 0;
+        }
+        .top_text{
+            position:fixed;
+            top:0;
+        }
+        .login_form {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+
+        input[type=text] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 20%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+
+    <script language="JavaScript">
+        function load() {
+            window.location.reload();
+        }
+
+        setTimeout('load()', 10000); //10s刷新一次
+
+    //    $(function () {
+    //        $("html, body").animate({
+    //            scrollTop: $('html, body').get(0).scrollHeight
+    //        }, 1000);
+    //    });
+    </script>
+</head>
+{#<body onload="window.scrollTo(0,document.body.scrollHeight);">#}
+<body>
+<div class="top">
+    <p class='top_text'>当前用户: {{ user.my_name }} | <a href="../logout/">退出？</a></p>
+</div>
+<div>
+<p style="text-align: center;color: darkgrey">没有更多消息了</p>
+    {% for chat_data in chat_data %}
+        {% if chat_data.user_name == user.my_name %}
+            <user style="color:darkgreen">{{ chat_data.user_name }}</user>: {{ chat_data.chat_data }}  <p style="text-align:right">--{{ chat_data.chat_time }}</p>
+        {% endif %}
+        {% if chat_data.user_name != user.my_name %}
+            <user style="color:red">{{ chat_data.user_name }}</user>: {{ chat_data.chat_data }}  <p style="text-align:right">--{{ chat_data.chat_time }}</p>
+        {% endif %}
+        <br>
+    {% endfor %}
+    <br>
+{#    <p>&nbsp;</p>#}
+</div>
+<form action="/chat_write_in/" method="post" class="login_form">
+    {% csrf_token %}
+    <input type="text" name="chat"><input type="submit" value="提交">
+</form>
+</body>
+</html>

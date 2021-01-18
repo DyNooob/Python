@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>退出登录成功！</title>
+  <style>
+  h2
+  {
+	color:green;
+	text-align:center;
+    }
+  </style>
+</head>
+<body>
+<h2>退出登录成功！</h2>
+<div style="border: 1px solid #ccc!important;    border-color: #000!important;padding: 14px;">
+<p class="time">
+    <span id="time" class="red">3</span>s后返回登录
+</p>
+    <p>未跳转？<a href="../login/">点我跳转</a></p>
+</div>
+<script language="javascript" type="text/javascript">
+    var i = 3;
+    var intervalid;
+    intervalid = setInterval("jump()", 1000);
+    function jump() {
+        if (i == 0) {
+            window.location.href = "../index";
+            clearInterval(intervalid);
+        }
+        document.getElementById("time").innerHTML = i;
+        i--;
+    }
+</script>
+</body>
+</html>
