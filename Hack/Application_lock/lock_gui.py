@@ -88,18 +88,14 @@ class Application(Application_ui):
 
     def passwd_check(self, passwd_in):
         global passwd
-        # print(passwd)
-        # print(passwd_in)
         if int(passwd_in) != passwd:
             self.Label1.config(text='')
             self.Label2.config(text='')
             self.Label3.config(text='')
             self.Label4.config(text='')
             data = 'Fales'
-            # print(passwd_in)
             global passwd_recording
             passwd_recording = ''
-            # print(data)
             return data
         else:
             data = 'True'
