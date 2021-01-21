@@ -1,10 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5534e68c-692c-496e-8bbe-f912160b73ac" name="默认的" comment="Application_lock">
-      <change afterPath="$PROJECT_DIR$/Hack/病毒/keylogger_simple.py" afterDir="false" />
+    <list default="true" id="5534e68c-692c-496e-8bbe-f912160b73ac" name="默认的" comment="人脸识别+中医开坑">
+      <change afterPath="$PROJECT_DIR$/AI/口罩识别/mask.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/口罩识别/待检测/no.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/口罩识别/待检测/yes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/拼接图片/target/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/Web/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/判断语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/尹傲骏学习/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/尹傲骏学习/月份.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hack/病毒/socket_server_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hack/病毒/socket_server_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/.ipynb_checkpoints/疫情数据分析-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/.ipynb_checkpoints/疫情数据分析-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/数据.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/数据.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/疫情数据分析.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/疫情数据分析.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +90,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="53a341cf-4ce8-4377-a717-b1b6d3ddc647" />
-  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="Python/invalid/Django" />
@@ -72,94 +110,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hack/Application_lock" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Python\D-M-D\V1.x" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keylogger_simple">
-    <configuration name="窗口测试文件 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/Application_lock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/Application_lock/窗口测试文件.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="多线程测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Reptiles/多线程_Study" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptiles/多线程_Study/多线程测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Reptiles/Music/网易云" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptiles/Music/网易云/测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="keylogger_simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="相机测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/病毒" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI/人脸识别" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/病毒/keylogger_simple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI/人脸识别/相机测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mian" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="月份" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,12 +148,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/Application_lock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/尹傲骏学习" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/Application_lock/mian.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/尹傲骏学习/月份.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,20 +162,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_client_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="判断语句" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/病毒" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/病毒/socket_client_pickle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/判断语句.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,20 +184,64 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="socket_server_pickle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI/拼接图片" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI/拼接图片/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mask" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="C:\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/病毒" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI/口罩识别" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/病毒/socket_server_pickle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI/口罩识别/mask.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Study/尹傲骏学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Study/尹傲骏学习/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,20 +275,17 @@
     </configuration>
     <list>
       <item itemvalue="Django 服务器.Web" />
-      <item itemvalue="Python.多线程测试" />
-      <item itemvalue="Python.窗口测试文件 (1)" />
-      <item itemvalue="Python.mian" />
-      <item itemvalue="Python.socket_server_pickle" />
-      <item itemvalue="Python.socket_client_pickle" />
-      <item itemvalue="Python.keylogger_simple" />
+      <item itemvalue="Python.相机测试" />
+      <item itemvalue="Python.mask" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.demo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.keylogger_simple" />
-        <item itemvalue="Python.socket_server_pickle" />
-        <item itemvalue="Python.socket_client_pickle" />
-        <item itemvalue="Python.mian" />
-        <item itemvalue="Python.窗口测试文件 (1)" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.mask" />
+        <item itemvalue="Python.相机测试" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +339,12 @@
       <workItem from="1610949697969" duration="71000" />
       <workItem from="1610963207615" duration="69000" />
       <workItem from="1610972815613" duration="4433000" />
-      <workItem from="1611046271058" duration="52000" />
+      <workItem from="1611046271058" duration="817000" />
+      <workItem from="1611133120892" duration="36000" />
+      <workItem from="1611134023134" duration="864000" />
+      <workItem from="1611135341973" duration="3000" />
+      <workItem from="1611225166442" duration="1186000" />
+      <workItem from="1611231114056" duration="2313000" />
     </task>
     <task id="LOCAL-00001" summary="First submission">
       <created>1610951509070</created>
@@ -391,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610974684682</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="键盘检测及发送">
+      <created>1611046472952</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1611046472952</updated>
+    </task>
+    <task id="LOCAL-00011" summary="人脸识别+中医开坑">
+      <created>1611135284111</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611135284111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,11 +461,13 @@
     <MESSAGE value="First submission" />
     <MESSAGE value="Second submission" />
     <MESSAGE value="Application_lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Application_lock" />
+    <MESSAGE value="键盘检测及发送" />
+    <MESSAGE value="人脸识别+中医开坑" />
+    <option name="LAST_COMMIT_MESSAGE" value="人脸识别+中医开坑" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$socket_server_pickle.coverage" NAME="socket_server_pickle 覆盖结果" MODIFIED="1610977844885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/病毒" />
-    <SUITE FILE_PATH="coverage/Python$socket_client_pickle.coverage" NAME="socket_client_pickle 覆盖结果" MODIFIED="1610974583499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/病毒" />
-    <SUITE FILE_PATH="coverage/Python$keylogger_simple.coverage" NAME="keylogger_simple 覆盖结果" MODIFIED="1610977853895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/病毒" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="判断语句 覆盖结果" MODIFIED="1611225502439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1611231135586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/尹傲骏学习" />
+    <SUITE FILE_PATH="coverage/Python$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1611232972599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/拼接图片" />
   </component>
 </project>
