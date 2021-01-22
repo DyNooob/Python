@@ -4,48 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5534e68c-692c-496e-8bbe-f912160b73ac" name="默认的" comment="人脸识别+中医开坑">
-      <change afterPath="$PROJECT_DIR$/AI/口罩识别/mask.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/口罩识别/待检测/no.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/口罩识别/待检测/yes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/拼接图片/target/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/D-M-D/Web/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/判断语句.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/尹傲骏学习/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Study/尹傲骏学习/月份.py" afterDir="false" />
+    <list default="true" id="5534e68c-692c-496e-8bbe-f912160b73ac" name="默认的" comment="2021年1月21日21:52:52">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/.ipynb_checkpoints/疫情数据分析-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/.ipynb_checkpoints/疫情数据分析-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/数据.csv" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/数据.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/数据分析/疫情数据分析/疫情数据分析.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/数据分析/疫情数据分析/疫情数据分析.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +50,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="53a341cf-4ce8-4377-a717-b1b6d3ddc647" />
+  </component>
   <component name="InvalidFacetManager">
     <ignored-facets>
       <facet id="Python/invalid/Django" />
@@ -110,7 +73,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hack/Application_lock" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -274,7 +237,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django 服务器.Web" />
+      <item itemvalue="Django Server.Web" />
       <item itemvalue="Python.相机测试" />
       <item itemvalue="Python.mask" />
       <item itemvalue="Python.test" />
@@ -283,8 +246,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.demo" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.mask" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.相机测试" />
       </list>
     </recent_temporary>
@@ -344,7 +307,9 @@
       <workItem from="1611134023134" duration="864000" />
       <workItem from="1611135341973" duration="3000" />
       <workItem from="1611225166442" duration="1186000" />
-      <workItem from="1611231114056" duration="2313000" />
+      <workItem from="1611231114056" duration="6070000" />
+      <workItem from="1611237258408" duration="742000" />
+      <workItem from="1611281104264" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="First submission">
       <created>1610951509070</created>
@@ -423,7 +388,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611135284111</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2021年1月21日20:52:19">
+      <created>1611233547244</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611233547245</updated>
+    </task>
+    <task id="LOCAL-00013" summary="2021年1月21日21:52:52">
+      <created>1611237176887</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611237176887</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,11 +442,14 @@
     <MESSAGE value="Application_lock" />
     <MESSAGE value="键盘检测及发送" />
     <MESSAGE value="人脸识别+中医开坑" />
-    <option name="LAST_COMMIT_MESSAGE" value="人脸识别+中医开坑" />
+    <MESSAGE value="2021年1月21日20:52:19" />
+    <MESSAGE value="2021年1月21日21:52:52" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021年1月21日21:52:52" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$.coverage" NAME="判断语句 覆盖结果" MODIFIED="1611225502439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study" />
     <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1611231135586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/尹傲骏学习" />
-    <SUITE FILE_PATH="coverage/Python$demo.coverage" NAME="demo 覆盖结果" MODIFIED="1611232972599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/拼接图片" />
+    <SUITE FILE_PATH="coverage/Python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1611237396934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/拼接图片" />
+    <SUITE FILE_PATH="coverage/Python$mask.coverage" NAME="mask 覆盖结果" MODIFIED="1611237027076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/口罩识别" />
   </component>
 </project>
