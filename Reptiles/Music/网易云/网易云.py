@@ -53,7 +53,7 @@ iframe_elemnt = driver.find_element_by_id("g_iframe")  # 因为直接获取不�
 driver.switch_to.frame(iframe_elemnt)  # 关键步骤，跳转到iframe里面，就可以获取HTML内容
 # print(driver.page_source)
 soup = BeautifulSoup(driver.page_source, "html.parser")  # 通过 BeautifulSoup 模块解析网页，具体请参考官方文档。
-for div in soup.find_all('div',class_="ztag j-flag"):
+for div in soup.find_all('div', class_="ztag j-flag"):
     for title in div.find_all('div', class_='td w0'): # title
         music_list.append(title.text)
         # music_url.append(title.href)
