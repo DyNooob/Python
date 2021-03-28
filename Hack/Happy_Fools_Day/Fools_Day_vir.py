@@ -19,6 +19,7 @@ name_dictionary = {
     "SeewoLink": "希沃授课助手",
     "WeChat.exe": "微信",
     "DingTalk.exe": "钉钉",
+    "POWERPNT.EXE": "PowerPoint(PPT)"
 }
 
 
@@ -67,8 +68,8 @@ def get_data():
         # ~~JSON parsing~~
         status = jsonpath.jsonpath(resp_json, '$..status')[0]
         prog = jsonpath.jsonpath(resp_json, '$..prog')[0]
-        plan_day = jsonpath.jsonpath(resp_json, '$..day')[0]
-        plan_month = jsonpath.jsonpath(resp_json, '$..month')[0]
+        plan_day = str(jsonpath.jsonpath(resp_json, '$..day')[0])
+        plan_month = str(jsonpath.jsonpath(resp_json, '$..month')[0])
         prog_list = prog
 
     except:
@@ -82,16 +83,15 @@ while True:
     # Get now date
     month = time.strftime("%m", time.localtime())
     day = time.strftime("%d", time.localtime())
-    plan_month = "0" + str(plan_month)
-    print(type(plan_month), plan_day)
-    print(type(month), day)
-    if month == plan_month and day == plan_day:
+    if len(plan_month) == 1:
+        plan_month = "0" + str(plan_month)
+    if month == plan_month and day == str(plan_day):
         print("Running")
         for prog in prog_list:
             try:
                 if isinstance(proc_exist(prog), int):
                     kill(prog)
-                    if prog == "EasiNote.exe" or "SeewoLink" or "WeChat.exe" or "DingTalk.exe":
+                    if prog == "EasiNote.exe" or "SeewoLink.exe" or "WeChat.exe" or "DingTalk.exe" or "POWERPNT.EXE":
                         prog_name = name_dictionary[prog]
                         message = "今天是 {} 月 {} 日，你的 {} 在今天用不成哦，祝你愚人节快乐哟 :-)".format(month, day, prog_name)
                         win32api.MessageBox(0, message, "Today is AFD !!", win32con.MB_OK)
