@@ -5,25 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5534e68c-692c-496e-8bbe-f912160b73ac" name="默认的" comment="2021年1月24日00:10:16">
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Hack/压缩包密码破解/password.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/sourceimages/desktop9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI/拼接图片/target/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/AI/拼接图片/examples/1.jpg" afterDir="false" />
-    </list>
-    <list id="cc26b184-9658-4f07-b197-0c54770fbab1" name="2021年1月24日00:10:16" comment="">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/人脸识别/.idea/人脸识别.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/.idea/语音识别.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/YAJbd.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/stt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/tts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/x64/libmsc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/语音识别/x86/libmsc.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/D-M-D.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/D-M-D/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Django/TEST/templates/test_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/Hack.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hack/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/Reptiles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/Baidu Translate/translate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/taobao.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/taobao/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/微博热搜/微博热搜2021年01月27日22时53分.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/微博热搜/微博热搜2021年01月27日22时54分.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/微博热搜/微博热搜2021年01月27日22时56分.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reptiles/豆瓣电影/TOP250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Study/浏览器/.idea/浏览器.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Things/zyb_redpacket.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/Video.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Video/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Sublime/python3.sublime-build" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/DOS/dos.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/.idea/字符加解密.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/加密解密.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/字符加解密/调用NooobAPI加密解密.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/文件md5计算/face.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/文件md5计算/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/文件md5计算/字符MD5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/安全相关/文件md5计算/文件MD5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/人口出生率、死亡率和自然增长率/.ipynb_checkpoints/人口分析-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/人口出生率、死亡率和自然增长率/1969-2019.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/数据分析/人口出生率、死亡率和自然增长率/人口分析.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/Flask聊天室/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/Flask聊天室/chat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/Flask聊天室/templates/web_chat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/UDP传输.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/客户端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/UDP传输/服务端.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/网络相关/邮件发送/smtp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Django/TEST/test_site_1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hack/Happy_Fools_Day/Fools_Day_vir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hack/Happy_Fools_Day/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Django/测试系统/中医/中医系统/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DoS/dos.py" beforeDir="false" afterPath="$PROJECT_DIR$/DoS/dos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reptiles/堆糖网/堆糖网.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reptiles/堆糖网/堆糖网.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Things/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Things/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Things/作业帮红包.py" beforeDir="false" afterPath="$PROJECT_DIR$/Things/作业帮红包.py" afterDir="false" />
     </list>
+    <list id="cc26b184-9658-4f07-b197-0c54770fbab1" name="2021年1月24日00:10:16" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +193,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hack/压缩包密码破解" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.配色方案字体" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -101,8 +204,8 @@
       <recent name="E:\Python\AI\拼接图片\examples" />
     </key>
   </component>
-  <component name="RunManager" selected="Django Server.Web">
-    <configuration name="表情包" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Fools_Day_vir">
+    <configuration name="表情包下载测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,7 +218,51 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptiles/表情包/表情包.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptiles/表情包/表情包下载测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Fools_Day_vir" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/Happy_Fools_Day" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/Happy_Fools_Day/Fools_Day_vir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TOP250" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Reptiles/豆瓣电影" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptiles/豆瓣电影/TOP250.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +403,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,12 +411,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI/拼接图片" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/Happy_Fools_Day" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI/拼接图片/demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/Happy_Fools_Day/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,20 +425,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zip_password" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="zyb_redpacket" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Hack/压缩包密码破解" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="C:\Python\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Things" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Hack/压缩包密码破解/zip_password.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Things/zyb_redpacket.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,16 +471,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Django Server.Web" />
-      <item itemvalue="Python.demo" />
-      <item itemvalue="Python.表情包" />
-      <item itemvalue="Python.zip_password" />
+      <item itemvalue="Django 服务器.Web" />
+      <item itemvalue="Python.表情包下载测试" />
+      <item itemvalue="Python.zyb_redpacket" />
+      <item itemvalue="Python.TOP250" />
+      <item itemvalue="Python.Fools_Day_vir" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.zip_password" />
-        <item itemvalue="Python.demo" />
-        <item itemvalue="Python.表情包" />
+        <item itemvalue="Python.Fools_Day_vir" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.TOP250" />
+        <item itemvalue="Python.zyb_redpacket" />
+        <item itemvalue="Python.表情包下载测试" />
       </list>
     </recent_temporary>
   </component>
@@ -404,6 +555,14 @@
       <workItem from="1611412816748" duration="1424000" />
       <workItem from="1611451504271" duration="119000" />
       <workItem from="1611451711098" duration="316000" />
+      <workItem from="1612597635259" duration="3851000" />
+      <workItem from="1612626929568" duration="292000" />
+      <workItem from="1612627244762" duration="19000" />
+      <workItem from="1612661881330" duration="598000" />
+      <workItem from="1612670203246" duration="6000" />
+      <workItem from="1616510695741" duration="151000" />
+      <workItem from="1616849294848" duration="7574000" />
+      <workItem from="1616902940093" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="First submission">
       <created>1610951509070</created>
@@ -564,11 +723,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="2021年1月24日00:10:16" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="留言list Coverage Results" MODIFIED="1611293965931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reptiles/Xiantao Gov" />
-    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1611231135586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Study/尹傲骏学习" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="线程测试 Coverage Results" MODIFIED="1611396624704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/无限锁屏" />
-    <SUITE FILE_PATH="coverage/Python$zip_password.coverage" NAME="zip_password Coverage Results" MODIFIED="1611372525253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/压缩包密码破解" />
-    <SUITE FILE_PATH="coverage/Python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1611310996650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/拼接图片" />
-    <SUITE FILE_PATH="coverage/Python$mask.coverage" NAME="mask 覆盖结果" MODIFIED="1611237027076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI/口罩识别" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1616904096429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/Happy_Fools_Day" />
+    <SUITE FILE_PATH="coverage/Python$Fools_Day_vir.coverage" NAME="Fools_Day_vir 覆盖结果" MODIFIED="1616904254586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Hack/Happy_Fools_Day" />
   </component>
 </project>

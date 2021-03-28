@@ -3,9 +3,9 @@
 from pymouse import PyMouse
 import time
 import threading
+
 check_time = 1000
 time_sleep = 1
-
 
 m = PyMouse()
 time.sleep(time_sleep)
@@ -13,12 +13,11 @@ print(m.position())
 
 
 def check():
-  for a in range(1,check_time):
-    m.click(894, 825, 1)
-    time.sleep(0.00001)
-    if a == check_time:
-      break
-
+    for a in range(1, check_time):
+        m.click(894, 825, 1)
+        time.sleep(0.00001)
+        if a == check_time:
+            break
 
 
 check1 = threading.Thread(target=check)

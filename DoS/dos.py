@@ -2,17 +2,16 @@ import time
 import threading
 import requests
 
-url = 'http://192.168.123.253/'
+url = 'http://www.aqqle.top/'
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 FS',
-    'Referer': 'https://maoyan.com/board'
+    'Referer': 'https://nooob.top/'
 }
 def conn_thread():
   cont = 0
   while True:
     cont+=1
-    print(cont)
     a = requests.get(url=url, headers=headers)
     d = requests.get(url=url, headers=headers)
     e = requests.get(url=url, headers=headers)
@@ -21,6 +20,7 @@ def conn_thread():
     h = requests.get(url=url, headers=headers)
     i = requests.get(url=url, headers=headers)
     j = requests.get(url=url, headers=headers)
+    print(cont)
 
 
 conn_th1=threading.Thread(target=conn_thread,args=())
