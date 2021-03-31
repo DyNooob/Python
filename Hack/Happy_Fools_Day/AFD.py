@@ -12,6 +12,11 @@ status = ''
 prog_list = []
 title = ''
 get_message = ''
+POWERPNT_status = ''
+POWERPNT_message = ''
+Seewo_status = ''
+Seewo_message = ''
+
 '''Date time settings'''
 # ----- please input like "01" "04"
 plan_month = "03"
@@ -61,8 +66,9 @@ def kill(name):
 
 '''Get Progs'''
 def get_data():
+    time.sleep(180) # 开机时可能没有网络 等待3min获取网络
     while True:
-        global status, prog_list, plan_day, plan_month, plan_hours, plan_minutes, title, get_message
+        global status, prog_list, plan_day, plan_month, plan_hours, plan_minutes, title, get_message, POWERPNT_status, POWERPNT_message, Seewo_status, Seewo_message
         try:
             data = {
                 'message': 'april_fools_day',
@@ -81,6 +87,10 @@ def get_data():
             plan_minutes = str(jsonpath.jsonpath(resp_json, '$..minutes')[0])
             title = str(jsonpath.jsonpath(resp_json, '$..title')[0])
             get_message = str(jsonpath.jsonpath(resp_json, '$..message')[0])
+            POWERPNT_status = str(jsonpath.jsonpath(resp_json, '$..POWERPNT_status')[0])
+            POWERPNT_message = str(jsonpath.jsonpath(resp_json, '$..POWERPNT_message')[0])
+            Seewo_status = str(jsonpath.jsonpath(resp_json, '$..Seewo_status')[0])
+            Seewo_message = str(jsonpath.jsonpath(resp_json, '$..Seewo_message')[0])
             prog_list = prog
         except:
             pass
@@ -97,10 +107,18 @@ def killing(get_message, month, day, hours, minutes):
                 kill(prog)
                 print("Closed -- ", prog)
                 if status == 2:
-                    if prog == "EasiNote.exe" or "SeewoLink.exe" or "WeChat.exe" or "DingTalk.exe" or "POWERPNT.EXE":
+                    if prog == "WeChat.exe" or "DingTalk.exe":
                         prog_name = name_dictionary[prog]
-                        message = get_message.replace("!month!", month).replace("!day!", day).replace("!prog!",                                                         prog_name)
-                        win32api.MessageBox(0, message, title, win32con.MB_OK)
+                        message = get_message.replace("!month!", month).replace("!day!", day).replace("!prog!",prog_name)
+                        win32api.MessageBox(0, message, title, win32con.MB_ICONASTERISK)
+                    elif prog == "EasiNote.exe" or "SeewoLink.exe":
+                        if Seewo_status == 1:
+                            message = Seewo_message.replace("!month!", month).replace("!day!", day).replace("!prog!",prog_name)
+                            win32api.MessageBox(0, message, title, win32con.MB_ICONASTERISK)
+                    elif prog == "POWERPNT.EXE":
+                        if POWERPNT_status == 1:
+                            message = POWERPNT_message.replace("!month!", month).replace("!day!", day).replace("!prog!", prog_name)
+                            win32api.MessageBox(0, message, title, win32con.MB_ICONASTERISK)
                     else:
                         pass
             else:
@@ -111,7 +129,7 @@ def killing(get_message, month, day, hours, minutes):
 
 get_web_data=threading.Thread(target=get_data, args=())
 get_web_data.start()
-time.sleep(5)
+time.sleep(200)
 
 
 '''while-True Check'''
@@ -125,6 +143,7 @@ while True:
         if len(plan_month) == 1:
             plan_month = "0" + str(plan_month)
         if month == plan_month and day == str(plan_day):
+            print("here")
             if hours < plan_hours:
                 killing(get_message, month, day, hours, minutes)
             if hours == plan_hours and minutes < plan_minutes:
