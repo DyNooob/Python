@@ -7,7 +7,7 @@ from email.utils import formataddr
 
 sender = "python@nooob.top"
 sender_name = "Python"
-passwd = "Dy12345."
+passwd = "大小一二到五点"
 to_user = "duyun888888@qq.com"
 to_user_name = "DY"
 smtp_server = "smtp.exmail.qq.com"
